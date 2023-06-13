@@ -8,8 +8,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Perk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -84,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686389244282</updated>
       <workItem from="1686389247049" duration="13041000" />
+      <workItem from="1686653234368" duration="17066000" />
     </task>
     <servers />
   </component>

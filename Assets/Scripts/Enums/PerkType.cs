@@ -2,7 +2,7 @@
 {
     public enum PerkType
     {
-        CloneShips,
+        DoubleScore,
         MultipleShoots,
         ShieldBarrier,
         BulletSpeed,

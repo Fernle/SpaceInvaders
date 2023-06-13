@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float speed = 2f;
-    public float shootingDelay = 2f;
+    public float shootingDelay;
     public GameObject bulletPrefab;
     public Transform bulletSpawnPoint;
     public float minX;
@@ -66,12 +66,13 @@ public class EnemyController : MonoBehaviour
         currentHealth -= damageAmount;
 
         if (currentHealth <= 0)
-        { 
+        {
+            EnemyDied();
             Destroy(gameObject);
         }
     }
 
-    void OnDestroy()
+    private void EnemyDied()
     {
         for (int i = 0; i < perkPrefabs.Length; i++)
         {

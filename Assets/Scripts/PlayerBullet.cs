@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerBullet : MonoBehaviour
@@ -39,6 +37,27 @@ public class PlayerBullet : MonoBehaviour
             if (spaceshipHealth != null)
             {
                 spaceshipHealth.TakeDamage(25);
+                ScoreManager.Instance.YellowEnemyScore();
+            }
+            Destroy(gameObject);
+        }
+        else if (collision.CompareTag("EnemyPurple"))
+        {
+            EnemyController spaceshipHealth = collision.GetComponent<EnemyController>();
+            if (spaceshipHealth != null)
+            {
+                spaceshipHealth.TakeDamage(25);
+                ScoreManager.Instance.PurpleEnemyScore();
+            }
+            Destroy(gameObject);
+        }
+        else if (collision.CompareTag("EnemyBlue"))
+        {
+            EnemyController spaceshipHealth = collision.GetComponent<EnemyController>();
+            if (spaceshipHealth != null)
+            {
+                spaceshipHealth.TakeDamage(25);
+                ScoreManager.Instance.BlueEnemyScore();
             }
             Destroy(gameObject);
         }
