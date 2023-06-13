@@ -341,7 +341,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 167.60669, y: -373}
+  m_AnchoredPosition: {x: 167.60669, y: 57}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143589782
@@ -364,10 +364,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ahmet emirhan "fernley" ozdemir
+  m_text: Ahmet Emirhan "Fernley" Ozdemir
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6db250ad2162ef34e956bfdf01f2a47a, type: 2}
-  m_sharedMaterial: {fileID: 4012690469716929518, guid: 6db250ad2162ef34e956bfdf01f2a47a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8369e29c3cff40247a7b15298bd96df0, type: 2}
+  m_sharedMaterial: {fileID: 1769080361830925668, guid: 8369e29c3cff40247a7b15298bd96df0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -94.27783, y: 0, z: -185.74127, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1470,7 +1470,7 @@ RectTransform:
   m_GameObject: {fileID: 1356781677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7.7667933}
-  m_LocalScale: {x: 0.5, y: 1.6, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 629589190}
@@ -1622,7 +1622,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 167.60669, y: -87}
+  m_AnchoredPosition: {x: 167.60669, y: -285}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390197430
@@ -1645,10 +1645,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Goktug Eray "Aimless" Yilmaz
+  m_text: "Goktug Eray \"Aimless\" Y\u0131lmaz"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6db250ad2162ef34e956bfdf01f2a47a, type: 2}
-  m_sharedMaterial: {fileID: 4012690469716929518, guid: 6db250ad2162ef34e956bfdf01f2a47a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8369e29c3cff40247a7b15298bd96df0, type: 2}
+  m_sharedMaterial: {fileID: 1769080361830925668, guid: 8369e29c3cff40247a7b15298bd96df0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -91.46355, y: 0, z: -187.1485, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
