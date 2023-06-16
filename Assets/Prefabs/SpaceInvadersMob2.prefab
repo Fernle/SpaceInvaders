@@ -98,7 +98,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.029909134}
@@ -130,8 +130,8 @@ MonoBehaviour:
   shootingDelay: 6
   bulletPrefab: {fileID: 7086873274502110613, guid: fecd40ad3dd8c904cba03386bed67697, type: 3}
   bulletSpawnPoint: {fileID: 4590363783809892798}
-  minX: -8.56
-  maxX: 8.55
+  minX: -10
+  maxX: 10
   movementDistance: 1
   perkPrefabs:
   - {fileID: 7766871362905177584, guid: a574510fda45259488fcd36f1d116846, type: 3}

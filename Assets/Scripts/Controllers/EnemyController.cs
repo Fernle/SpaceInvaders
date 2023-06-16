@@ -36,12 +36,12 @@ public class EnemyController : MonoBehaviour
     {
         float movement = speed * direction * Time.deltaTime;
         float newX = transform.position.x + movement;
-        
+
         if (Mathf.Abs(newX - initialX) >= movementDistance)
         {
             direction *= -1;
         }
-        
+
         float clampedX = Mathf.Clamp(newX, minX, maxX);
         transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
     }

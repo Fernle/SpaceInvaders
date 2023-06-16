@@ -4,10 +4,17 @@ public class EnemyBullet : MonoBehaviour
 {
     public float speed = 10f;
 
+    private Camera mainCamera;
+
+    void Start()
+    {
+        mainCamera = Camera.main;
+    }
+
     void Update()
     {
         transform.Translate(Vector3.down * speed * Time.deltaTime);
-        
+
         if (!IsInCameraView())
         {
             Destroy(gameObject);
@@ -16,17 +23,8 @@ public class EnemyBullet : MonoBehaviour
 
     bool IsInCameraView()
     {
-        Camera mainCamera = Camera.main;
-        float cameraHeight = 2f * mainCamera.orthographicSize;
-        float cameraWidth = cameraHeight * mainCamera.aspect;
-        
         Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
-        if (screenPoint.y < 0 || screenPoint.y > 1)
-        {
-            return false;
-        }
-
-        return true;
+        return screenPoint.y > 0 && screenPoint.y < 1;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -38,7 +36,11 @@ public class EnemyBullet : MonoBehaviour
             {
                 spaceshipHealth.TakeDamage(25);
             }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        else if (collision.CompareTag("Enemy"))
+        {
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collision, true);
+        }
     }
 }
